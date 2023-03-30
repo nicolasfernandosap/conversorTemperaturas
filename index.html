@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+    <div class="conteudo">
+    <h1>Conversor de temperaturas</h1>
+                   
+    
+    <form class="temperatura-form" method="get" >
+        <span>De:</span>
+
+        <select name="primeira-temperatura" id="primeira-temperatura">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+            <option value="rankine">Rankine</option>
+        </select>
+
+
+        <input type="number" name="temperatura" id="temperatura" placeholder="Digite a temperatura">
+
+        <span>Para:</span>
+        <select name="segunda-temperatura" id="segunda-temperatura">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+            <option value="rankine">Rankine</option>
+        </select>
+
+        <input type="submit" value="Converter" name="btn-conversor" id="btn-conversor">
+        
+
+    </form>
+
+</div>
+     
+
+    <script src="./script.js"></script>
+</body>
+</html>
